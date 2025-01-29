@@ -1,0 +1,23 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties:
+      idePort:
+        type: string
+        description: Port of the IDE's built-in web server. Optional.
+      host:
+        type: string
+        default: 127.0.0.1
+        description: Host address of the IDE's built-in web server. Defaults to 127.0.0.1.
+      logEnabled:
+        type: string
+        default: "false"
+        description: Enable logging by setting this to 'true'.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['dist/src/index.js'], env: { IDE_PORT: config.idePort, HOST: config.host, LOG_ENABLED: config.logEnabled } })
