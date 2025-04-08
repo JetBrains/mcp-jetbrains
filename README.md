@@ -23,6 +23,8 @@ The full path on MacOS: `~/Library/Application\ Support/Claude/claude_desktop_co
 }
 ```
 
+After installing the MCP Server Plugin, and adding the JSON to the config file, restart Claude Desktop, and make sure the Jetbrains product is open before restarting Claude Desktop. 
+
 ## Configuration
 
 If you're running multiple IDEs with MCP server and want to connect to the specific one, add to the MCP server configuration:
