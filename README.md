@@ -3,6 +3,8 @@
 
 The server proxies requests from client to JetBrains IDE.
 
+<a href="https://glama.ai/mcp/servers/k7xzbtlxvb"><img width="380" height="200" src="https://glama.ai/mcp/servers/k7xzbtlxvb/badge" alt="mcp-jetbrains MCP server" /></a>
+
 ## Install MCP Server plugin
 
 https://plugins.jetbrains.com/plugin/26071-mcp-server
