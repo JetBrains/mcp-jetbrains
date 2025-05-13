@@ -1,4 +1,5 @@
 [![official JetBrains project](http://jb.gg/badges/incubator-flat-square.svg)](https://github.com/JetBrains#jetbrains-on-github)
+[![smithery badge](https://smithery.ai/badge/@jetbrains/mcp-proxy)](https://smithery.ai/server/@jetbrains/mcp-proxy)
 # JetBrains MCP Proxy Server
 
 The server proxies requests from client to JetBrains IDE.
@@ -137,4 +138,3 @@ Replace:
 1. Tested on macOS
 2. `brew install node pnpm`
 3. Run `pnpm build` to build the project
-
