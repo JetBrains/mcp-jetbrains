@@ -1,4 +1,6 @@
 [![official JetBrains project](http://jb.gg/badges/incubator-flat-square.svg)](https://github.com/JetBrains#jetbrains-on-github)
+
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/JetBrains/mcpProxy)](https://archestra.ai/mcp-catalog/jetbrains__mcpproxy)
 # JetBrains MCP Proxy Server
 
 The server proxies requests from client to JetBrains IDE.
