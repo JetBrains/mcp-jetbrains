@@ -53,6 +53,10 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
 }
 ```
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/jetbrains-mcpproxy).
+
 ## Usage with Claude Desktop
 
 To use this with Claude Desktop, add the following to your `claude_desktop_config.json`.
